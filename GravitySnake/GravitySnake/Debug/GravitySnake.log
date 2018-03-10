@@ -1,0 +1,4 @@
+﻿  snake.cpp
+c:\users\chase\desktop\igme209-02\gravitysnake\gravitysnake\snake.cpp(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\chase\desktop\igme209-02\gravitysnake\gravitysnake\snake.cpp(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  GravitySnake.vcxproj -> C:\Users\Chase\Desktop\IGME209-02\GravitySnake\Debug\GravitySnake.exe
