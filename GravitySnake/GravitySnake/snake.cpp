@@ -19,7 +19,7 @@ void snake:: update(b2World &world)
 {
 	world.Step(timeStep, velocityIterations, positionIterations);
 }
-
+//function to apply force to the snake object based on key input
 void snake:: applyForce(b2Body* player) {
 	char input = _getch();
 
@@ -48,6 +48,7 @@ void snake:: applyForce(b2Body* player) {
 	player->ApplyForceToCenter(b2Vec2(moveX, moveY), true);
 	input = 'k';
 }
+//moves target to a random position
 void snake:: moveTarget(b2Body* target)
 {
 	srand((int)time(0));
@@ -59,6 +60,7 @@ void snake:: moveTarget(b2Body* target)
 
 }
 
+//helper functions for getting the target position
 float snake:: targetX() {
 	return targetPosX;
 }
