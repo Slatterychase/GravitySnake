@@ -1,3 +1,5 @@
+//Snake object class handling the creation and tracking of the snake object as well as the target.
+
 #include "stdafx.h"
 #include "snake.h"
 #include "Box2D/Box2D.h"
